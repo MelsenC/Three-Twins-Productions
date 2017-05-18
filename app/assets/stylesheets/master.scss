@@ -3,6 +3,20 @@
 .navbar {
   background-color: #CEC8C8;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-  height: 150px;
   background: image_url('header-bg.png')
+}
+
+.navbar-brand {
+}
+
+.brandname {
+  font-family: 'Lucida Grande';
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+a.brandname:link, a.brandname:visited, a.brandname:hover, a.brandname:active {
+  color: #575353;
+  text-decoration: none;
 }
