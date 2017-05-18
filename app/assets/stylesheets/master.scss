@@ -1,12 +1,18 @@
 @import "bootstrap";
 
-.navbar {
-  background-color: #CEC8C8;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
-  background: image_url('header-bg.png')
+body {
+  background-color: #E8E3E3;
 }
 
-.navbar-brand {
+.titlebar {
+  background-color: #CEC8C8;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  background: image_url('header-bg.png');
+  z-index: 2;
+}
+
+.navbar {
+  z-index: 1;
 }
 
 .brandname {
@@ -19,4 +25,13 @@
 a.brandname:link, a.brandname:visited, a.brandname:hover, a.brandname:active {
   color: #575353;
   text-decoration: none;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
 }

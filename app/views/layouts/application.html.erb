@@ -11,17 +11,27 @@
 
   <body>
 
+    <div class="titlebar p-2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col" align="left">
+          <%= image_tag '3TP-logo.svg', class: 'img-fluid' %>
+          </div>
+          <div class="col-8 text-center">
+          <a href="#" class="brandname hidden-sm-down">Three Twins Productions</a>
+          </div>
+          <div class="col" align="right">
+          <%= image_tag '3TP-avatar.svg', class: 'img-fluid' %>
+          </div>
+        </div>
+      </div>
+    </div>
     <nav class="navbar navbar-toggleable-md navbar-light sticky-top bg-faded">
       <div class="d-flex flex-column align-items-start w-100">
         
           <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="m-auto p-2">
-                <%= image_tag '3TP-logo.svg', class: 'img-fluid' %>
-                <a href="#" class="brandname hidden-sm-down">Three Twins Productions</a>
-                <%= image_tag '3TP-avatar.svg', class: 'img-fluid' %>
-          </div>
           <div class="collapse navbar-collapse" id="navbarCollapse">
 
               <div class="navbar-brand">
