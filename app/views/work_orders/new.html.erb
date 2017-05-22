@@ -1,6 +1,11 @@
 <h1>New Work Order</h1>
 <%= simple_form_for(@work_order, html: { class: 'form-horizontal' }) do |f| %>
   <%= f.input :date_needed, :default => Date.current+14 %>
+  <%= f.input :company, label: "Company" %>
+  <%= f.input :cust_name, label: "Your Name"  %>
+  <%= f.input :cust_po, label: "Your PO" %>
   <%= f.input :description %>
+  <br />
+  <%= f.submit 'Submit', class: 'btn btn-primary' %>
 <% end %>
 

@@ -8,11 +8,12 @@ body {
   background-color: #CEC8C8;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   background: image_url('header-bg.png');
-  z-index: 2;
+  z-index: 1040;
 }
 
-.navbar {
-  z-index: 1;
+.nav-item {
+  background-color: #E2DADA;
+  border: 3px solid #CEC8C8;
 }
 
 .brandname {
