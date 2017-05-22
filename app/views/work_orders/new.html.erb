@@ -1,0 +1,5 @@
+<h1>New Work Order</h1>
+<%= simple_form_for(@work_order, html: { class: 'form-horizontal' }) do |f| %>
+  <%= f.input :date_needed %>
+  <%= f.input :description %>
+<% end %>
