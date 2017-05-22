@@ -1,2 +1,7 @@
-<h1>Work Orders</h1>
-<h2><%= @work_orders.inspect %></h2>
+<% @work_orders.each do |work_order| %>
+
+<h1><%= work_order.company %></h1>
+<h2><%= work_order.description %></h2>
+<h2>Date Needed: <%= work_order.date_needed.strftime("%B %d, %Y") %></h2>
+
+<% end %>
