@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170522201119) do
+ActiveRecord::Schema.define(version: 20170522214532) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "work_orders", force: :cascade do |t|
-    t.datetime "date_needed"
+    t.date     "date_needed"
     t.string   "company"
     t.string   "cust_name"
     t.string   "cust_po"
